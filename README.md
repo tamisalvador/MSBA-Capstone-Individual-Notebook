@@ -14,7 +14,7 @@ We defined Abandoned and Recovered carts using the following rules:
 * A cart/order window is abandoned if there was an add_to_cart within an order window, but no purchase event.
 * A cart/order window is recovered if it was abandoned AND if there was a purchase event in the next order window.
 
-we used a text analytics approach to better understand behavioral patterns that lead to cart abandonment, then clustered order windows into four main groups. These four groups represented 4 distinct populations that use MyCoke360, and revealed why users in each group may abandon their cart. Using this information, we provided specific UI improvements that could be implemented in MyCoke360 to improve order completion.
+We used a text analytics approach to better understand behavioral patterns that lead to cart abandonment, then clustered order windows into four main groups. These four groups represented 4 distinct populations that use MyCoke360, and revealed why users in each group may abandon their cart. Using this information, we provided specific UI improvements that could be implemented in MyCoke360 to improve order completion.
 
 # My contribution to the project
 I performed EDA for the operating_hours table and for the orders table. I collaborated with the group to merge our EDA notebooks and brainstorm the types of models we would use for the project. I added bar charts for Estimated Financial Loss from Abandoned Carts by Brand and by Pack Type. I reviewed and formatted the Modeling notebook. Lastly, I created the final presentation slides.
